@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Estilos generales */
+body {
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #63B49C;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/* Estilos del hero */
+.hero {
+    background-color: #63B49C;
+    color: #fff;
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta-buttons {
+    margin-top: 40px;
+}
+
+.cta-button {
+    background-color: #fff;
+    color: #78B945;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.hero-image {
+    max-width: 50%;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos de "Cómo funciona" */
+.how-it-works {
+    background-color: #F8F7F4;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 40px
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.step {
+    max-width: 250px;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.step img {
+    max-width: 100%;
+    height: auto;
+}
+
+.learn-more {
+    color: #63B49C
+}
+
+/* Estilos de las características */
+.features {
+    background-color: #F8F7F4;
+    padding: 20px;
+    text-align: center;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.feature {
+    max-width: 250px;
+    margin: 20px;
+    text-align: center;
+}
+
+.feature img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos del formulario de ingreso */
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 40px
+    
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.forgot-password {
+    display: inline-block;
+    margin-top: 5px;
+    color: #824271;
+    text-decoration: none;
+}
+
+.btn-ingresar {
+    background-color: #824271;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.no-cuenta {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.no-cuenta span {
+    color: #824271;
+}
+
+.no-cuenta .registrarse {
+    color: #824271;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+/* Estilos de la FAQ */
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.faq-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.faq-question {
+    background-color: #f5f5f5;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-answer {
+    padding: 10px;
+    display: none;
+}
+
+.faq-toggle {
+    font-weight: bold;
+}
+
+/* Estilos de las promociones */
+.promo-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.promo-box {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: calc(25% - 20px);
+    box-sizing: border-box;
+}
+
+.promo-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #63B49C
+;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+    margin-top: 40px
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links a {
+    color: #824271 
+}
+
+.footer-social a {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.footer-contact p {
+    margin: 0;
+}
+footer {
+  background-color: #63B49C;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start; /* Ajusta la alineación vertical */
+  flex-wrap: wrap; /* Asegura que las columnas se envuelvan en pantallas pequeñas */
+}
+
+.footer-column {
+  width: 30%; /* Ancho de cada columna */
+  text-align: left; /* Alineación del texto */
+  margin-bottom: 20px; /* Espacio entre columnas */
+}
+
+.footer-column h3 {
+  color: #63B49C;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column li {
+  margin-bottom: 10px;
+}
+
+.footer-social {
+  text-align: center; /* Alineación centrada para redes sociales */
+}
+
+.footer-social a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 10px;
+}
